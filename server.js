@@ -9,7 +9,6 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 dotenv.config();
 const connectDB = require('./db');
-const authRouter = require('./routes/authRoute');
 const userRouter = require('./routes/userRoute');
 
 //Connection to the database
